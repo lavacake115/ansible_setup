@@ -94,7 +94,8 @@ if [[ $user_choice == "yes" ]] ; then
     done
 
 else
-    echo -e "You have chosen to NOT set up another other Ansible managed nodes ... you will have to manually set them up yourself"
+    echo -e "You have chosen to NOT set up another other Ansible managed nodes ... you will have to manually set them up yourself ... Goodbye"
+    exit 1
 fi
 
 echo -e "\n SETTING UP ANSIBLE ON THE MANAGED NODES HAS COMPLETED SUCCESSFULLY ..."
