@@ -13,5 +13,8 @@ Requirements:
 - Rocky or RHEL OS (Debian-based OS's NOT supported)
 - One controller node + at least ONE to-be managed node
 
+Limitations:
+- Currently, the script only supports setting up to TWO managed nodes only
+
 NOTE:
 - This script must be ran from the controller node.
